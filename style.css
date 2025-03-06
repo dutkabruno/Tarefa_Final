@@ -1,0 +1,245 @@
+head {
+    .project-card:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+    .navbar {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+}
+
+html, body{
+    height: 100%;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(90, 101, 45)
+}
+
+.navbar {
+    background-color: rgb(33, 37, 41);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#cabeçalho {
+    background-color: rgb(90, 101, 45);
+}
+
+.container a {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container-fluid {
+    text-align: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container-fluid img {
+    border-radius: 50%; 
+    max-width: 450px;
+    width:100%;
+    height: auto;
+    margin: 0;
+}
+
+.navbar-toggler {
+    text-align: center;
+}
+
+#sobre {
+    background-color: rgb(33, 37, 41);
+    padding-top: 35px;
+    padding-bottom: 24px;
+}
+
+#sobre div {
+    color:white;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+}
+
+#sobre .row {
+    padding-top: 20px;
+}
+
+.card {
+    border: rgb(33, 37, 41);
+}
+
+.card-body {
+    background-color:rgb(33, 37, 41);
+}
+
+#experiencia {
+    background-color:rgb(90, 101, 45);
+    padding-top: 35px;
+    padding-bottom: 24px;
+}
+
+#experiencia div {
+    color:white;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+}
+
+#experiencia .card {
+    border: rgb(90, 101, 45);
+}
+
+#experiencia .card-body {
+    background-color: rgb(90, 101, 45);
+}
+
+#formacao {
+    background-color: rgb(33, 37, 41);
+    padding-top: 35px;
+    padding-bottom: 24px;
+}
+
+#formacao div {
+    color:white;
+    font-family: "Orbitron", sans-serif;
+    text-align:center;
+}
+
+#formacao .card {
+    border: rgb(33, 37, 41);
+}
+
+#formacao .card-body {
+    background-color: rgb(33, 37, 41);
+}
+
+#habilidades {
+    background-color: rgb(90, 101, 45);
+    padding-top: 35px;
+    padding-bottom: 24px;
+}
+
+#habilidades div {
+    color:white;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+}
+
+#habilidades .card {
+    border: rgb(90, 101, 45);
+}
+
+#habilidades .card-body {
+    background-color: rgb(90, 101, 45);
+}
+
+#projetos {
+    background-color: rgb(33, 37, 41);
+    padding-top: 35px;
+    padding-bottom: 24px;
+}
+
+#projetos div {
+    color:white;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+}
+
+#projetos .card {
+    border: rgb(33, 37, 41);
+}
+
+#projetos .card-body {
+    background-color: rgb(33, 37, 41);
+}
+
+#contato {
+    color:white;
+    padding-top: 35px;
+    padding-bottom: 24px;
+}
+
+#success-massage {
+    color:white;
+    background-color: rgb(33, 37, 41);
+    /*tenho que ver qual cor fica melhor, essa escura rgb(33, 37, 41), ou esta clara; rgb(131, 143, 84)*/
+}
+
+#nome {
+    color: white;
+    background-color: rgb(33, 37, 41);
+    border-color: rgb(33, 37, 41);
+}
+
+.form-control::placeholder {
+    color:white;
+    opacity: 1;
+}
+
+#email {
+    color:white;
+    background-color: rgb(33, 37, 41);
+    border-color: rgb(33, 37, 41);
+}
+
+#phone {
+    color:white;
+    background-color: rgb(33, 37, 41);
+    border-color: rgb(33, 37, 41);
+}
+
+#options {
+    color:white;
+    background-color: rgb(33, 37, 41);
+    border-color: rgb(33, 37, 41);
+}
+
+#text {
+    color:white;
+    background-color: rgb(33, 37, 41);
+    border-color: rgb(33, 37, 41);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#button {
+    color:white;
+    background-color: rgb(33, 37, 41);
+}
+
+#footer {
+    background-color: rgb(33, 37, 41);
+    color:white;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    width: 100%;
+    height: auto;
+    padding-top:11px;
+    padding-bottom:11px;
+}
+
+#insta {
+    color:white;
+}
+
+#git {
+    color:white;
+}
