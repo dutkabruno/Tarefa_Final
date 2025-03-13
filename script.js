@@ -1,12 +1,25 @@
-document.getElementById("contato").addEventListener("submit", function(event){
-    event.preventDefault();
+document.addEventListener("DOMContentLoaded", function() {
 
-document.getElementById("success-massage").classList.remove("d-none");
+    document.getElementById("contato").addEventListener("submit", function(event){
+        event.preventDefault();
 
-document.getElementById("contact-form").reset();
-});
+        let formData = new FormData(this);
 
-document.addEventListener("DOMContentLoaded", function () {
+        emailjs.sendForm('service_9jovhhz', 'template_tbubols', this, 'xcg3Huz81kedomFdM')
+            .then(response => {
+                console.log('Sucesso:', response);
+                document.getElementById("massage").classList.remove("d-none");
+
+                let contato = document.getElementById('contato');
+                contato.style.height = '700px';
+
+                document.getElementById("contato").reset();
+            })
+            .catch(error => {
+                console.error('Erro ao enviar:', error);
+            });
+    });
+    
     const phoneInput = document.getElementById("phone");
 
     phoneInput.addEventListener("input", function (e) {

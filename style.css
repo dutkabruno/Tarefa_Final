@@ -1,4 +1,4 @@
-head {
+html, head {
     .project-card:hover {
         transform: scale(1.05);
         transition: 0.3s;
@@ -19,7 +19,7 @@ html, body{
 }
 
 body {
-    background-color: rgb(90, 101, 45)
+    background-color: rgb(51, 142, 165);
 }
 
 .navbar {
@@ -31,17 +31,20 @@ body {
 }
 
 #cabeçalho {
-    background-color: rgb(90, 101, 45);
+    background-color: rgb(51, 142, 165);
+    color:white;
+    height: 700px;
+    padding-top: 50px;
 }
 
 .container a {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Lora', sans-serif;
 }
 
 .container-fluid {
     text-align: center;
     align-items: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Lora', sans-serif;
 }
 
 .container-fluid img {
@@ -57,14 +60,20 @@ body {
 }
 
 #sobre {
-    background-color: rgb(33, 37, 41);
-    padding-top: 35px;
+    background-color: rgb(31, 89, 107);
+    padding-top: 150px;
     padding-bottom: 24px;
+    height: 700px;
+    width: 100%;
+}
+
+#sobre .row {
+    padding-top: 5%;
 }
 
 #sobre div {
     color:white;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Lora", sans-serif;
     text-align: center;
 }
 
@@ -73,109 +82,152 @@ body {
 }
 
 .card {
-    border: rgb(33, 37, 41);
+    border: rgb(51, 142, 165);
 }
 
 .card-body {
-    background-color:rgb(33, 37, 41);
+    background-color:rgb(51, 142, 165);
+    border-radius: 5px;
 }
 
 #experiencia {
-    background-color:rgb(90, 101, 45);
-    padding-top: 35px;
+    background-color:rgb(51, 142, 165);
+    padding-top: 150px;
     padding-bottom: 24px;
+    height: 700px;
+    width: 100%;
+}
+
+#experiencia .row {
+    padding-top: 5%;
 }
 
 #experiencia div {
     color:white;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Lora", sans-serif;
     text-align: center;
 }
 
-#experiencia .card {
-    border: rgb(90, 101, 45);
+#card1 {
+    background-color: rgb(51, 142, 165);
+    border:rgb(51, 142, 165)
+}
+
+#card2 {
+    border: rgb(31, 89, 107);
+    background-color: rgb(31, 89, 107);
+}
+
+#card3 {
+    background-color: rgb(51, 142, 165);
+    border:rgb(51, 142, 165)
 }
 
 #experiencia .card-body {
-    background-color: rgb(90, 101, 45);
+    border-radius: 5px;
 }
 
 #formacao {
-    background-color: rgb(33, 37, 41);
-    padding-top: 35px;
+    background-color: rgb(31, 89, 107);
+    padding-top:150px;
     padding-bottom: 24px;
+    height: 700px;
+    width: 100%;
+}
+
+#hformacao .row {
+    padding-top: 5%;
 }
 
 #formacao div {
     color:white;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Lora", sans-serif;
     text-align:center;
 }
 
 #formacao .card {
-    border: rgb(33, 37, 41);
+    border: rgb(51, 142, 165);
 }
 
 #formacao .card-body {
-    background-color: rgb(33, 37, 41);
+    background-color: rgb(51, 142, 165);
+    border-radius: 5px;
 }
 
 #habilidades {
-    background-color: rgb(90, 101, 45);
-    padding-top: 35px;
+    background-color: rgb(51, 142, 165);
+    padding-top: 150px;
     padding-bottom: 24px;
+    height: 700px;
+    width: 100%;
+}
+
+#habilidades .row {
+    padding-top: 5%;
 }
 
 #habilidades div {
     color:white;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Lora", sans-serif;
     text-align: center;
 }
 
 #habilidades .card {
-    border: rgb(90, 101, 45);
+    border: rgb(31, 89, 107);
 }
 
 #habilidades .card-body {
-    background-color: rgb(90, 101, 45);
+    background-color: rgb(31, 89, 107);
+    border-radius: 5px;
 }
 
 #projetos {
-    background-color: rgb(33, 37, 41);
-    padding-top: 35px;
-    padding-bottom: 24px;
+    background-color: rgb(31, 89, 107);
+    padding-top: 150px;
+    padding-bottom: 50px;
+    min-height: 700px;
+    width: 100%;
+}
+
+#projetos .row {
+    padding-top: 5%;
 }
 
 #projetos div {
     color:white;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Lora", sans-serif;
     text-align: center;
 }
 
 #projetos .card {
-    border: rgb(33, 37, 41);
+    border-color: rgb(51, 142, 165);
+    
 }
 
 #projetos .card-body {
-    background-color: rgb(33, 37, 41);
+    background-color: rgb(51, 142, 165);
+    border-radius: 5px;
 }
 
 #contato {
     color:white;
-    padding-top: 35px;
+    padding-top:150px;
     padding-bottom: 24px;
+    height: 600px;
+    width: 100%;
+    transition: height 0.5s ease-in-out;
+    overflow: hidden;
 }
 
-#success-massage {
+#massage {
     color:white;
-    background-color: rgb(33, 37, 41);
-    /*tenho que ver qual cor fica melhor, essa escura rgb(33, 37, 41), ou esta clara; rgb(131, 143, 84)*/
+    background-color: rgb(31, 89, 107);
 }
 
 #nome {
     color: white;
-    background-color: rgb(33, 37, 41);
-    border-color: rgb(33, 37, 41);
+    background-color: rgb(31, 89, 107);
+    border-color: rgb(31, 89, 107);
 }
 
 .form-control::placeholder {
@@ -185,26 +237,26 @@ body {
 
 #email {
     color:white;
-    background-color: rgb(33, 37, 41);
-    border-color: rgb(33, 37, 41);
+    background-color: rgb(31, 89, 107);
+    border-color: rgb(31, 89, 107);
 }
 
 #phone {
     color:white;
-    background-color: rgb(33, 37, 41);
-    border-color: rgb(33, 37, 41);
+    background-color: rgb(31, 89, 107);
+    border-color: rgb(31, 89, 107);
 }
 
 #options {
     color:white;
-    background-color: rgb(33, 37, 41);
-    border-color: rgb(33, 37, 41);
+    background-color: rgb(31, 89, 107);
+    border-color: rgb(31, 89, 107);
 }
 
 #text {
     color:white;
-    background-color: rgb(33, 37, 41);
-    border-color: rgb(33, 37, 41);
+    background-color: rgb(31, 89, 107);
+    border-color: rgb(31, 89, 107);
 }
 
 
@@ -222,14 +274,14 @@ body {
 
 #button {
     color:white;
-    background-color: rgb(33, 37, 41);
+    background-color: rgb(31, 89, 107);
 }
 
 #footer {
     background-color: rgb(33, 37, 41);
     color:white;
     text-align: center;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Lora", sans-serif;
     width: 100%;
     height: auto;
     padding-top:11px;
